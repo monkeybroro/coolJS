@@ -21,7 +21,7 @@ function merge(left, right) {
     return res;
 }
 
-var test = [5, 0, 6, 7, 4, 6];
+var test = [5, 0, 6, 7, 4, 6, 3, 1, 2];
 console.log('before sort:');
 console.log(test);
 var res = mergesort(test, 0, test.length - 1);
